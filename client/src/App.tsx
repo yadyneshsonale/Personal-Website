@@ -54,9 +54,9 @@ export default function App() {
   // Profile info
   const name = 'Yadynesh D Sonale'
   const email = 'yadyneshsonale@gmail.com'
-  const github = 'https://github.com/LeNotaCoder'
+  const github = 'https://github.com/yadyneshsonale'
   const linkedin = 'https://www.linkedin.com/in/yadynesh'
-  const bio = `I'm a researcher and ML engineer passionate about deep learning, computer vision, and medical imaging. I build models that bridge the gap between cutting-edge research and real-world applications.`
+  const bio = `I’m a 20-year-old researcher and first-author published contributor with interests in research, NLP, deep learning, and computer vision. My work spans multimodal learning, medical imaging, and LLM based systems, and I’m deeply passionate about advancing deep learning, computer vision, and NLP research through impactful and well-grounded work.`
 
   // Experience data
   const experiences: Experience[] = [
@@ -66,7 +66,7 @@ export default function App() {
       company: 'Neural Nurture',
       period: 'Aug 2025 - Jan 2026 · 6 mos',
       location: 'Remote',
-      description: 'Focused on advanced machine learning techniques for in-context learning and state-of-the-art prompting methodologies.',
+      description: 'Implemented Zero-shot,Few-shot (k-shot), OPRO, and MIPRO prompting techniques using DSPy and LLaMA models for an LLM-based flight recommendation system, improving ranking quality across evaluation metrics. Optimized large-scale flight data representation using CSV, JSON, and TOON, reducing per-example context by 30K tokens while preserving recommendation relevance, and evaluated performance using nDCG, Precision@K, Recall@K, and Reciprocal Rank across multiple prompting strategies.',
       skills: ['In-Context Learning (ICL)', 'SoTA Prompting Techniques', 'DSPy', 'Feature Engineering']
     },
     {
@@ -75,7 +75,7 @@ export default function App() {
       company: 'Indian Institute of Information Technology Design & Manufacturing Kancheepuram',
       period: 'May 2025 - Jul 2025 · 3 mos',
       location: 'Chennai, Tamil Nadu, India',
-      description: 'Developed a multimodal framework for disease classification by integrating OCT and fundus images. Implemented Fibonacci-based preprocessing to enhance texture detection in OCT images. Designed a transfer learning pipeline to fine-tune models, improving classification accuracy across multimodal datasets.',
+      description: 'Developed a multimodal medical image classification framework integrating OCT and fundus images with transfer learning, achieving 98.87% accuracy for binary and 97.45% for three-class diabetic retinopathy classification. The approach included Fibonacci-based preprocessing to enhance OCT texture detection and a fine-tuning pipeline that improved performance across multimodal datasets.',
       skills: ['Computer Vision', 'Transfer Learning', 'Medical Imaging', 'Multimodal Learning']
     },
     {
@@ -84,7 +84,7 @@ export default function App() {
       company: 'Indian Institute of Information Technology Design & Manufacturing Kancheepuram',
       period: 'Dec 2024 - Apr 2025 · 5 mos',
       location: 'Chennai, Tamil Nadu, India',
-      description: 'Engineered DASNet, a dual-adaptive CNN architecture for diabetic retinopathy detection in fundus images, achieving state-of-the-art performance through novel feature extraction techniques. Implemented preprocessing techniques, including applying CLAHE to the HSV value channel, to enhance image classification accuracy and evaluated advanced deep learning architectures for performance comparison.',
+      description: 'Designed DASNet, a dual-adaptive CNN architecture for diabetic retinopathy detection in fundus images, incorporating novel feature extraction and HSV-based CLAHE preprocessing to enhance classification accuracy. The model outperformed baseline architectures by 1.85%–11.28%, and the work was accepted for publication at ICPRAM 2026.',
       skills: ['Deep Learning', 'CNN', 'Computer Vision', 'Medical Imaging', 'Image Processing']
     },
     {
@@ -104,16 +104,9 @@ export default function App() {
       id: 'edu1',
       institution: 'Indian Institute of Information Technology Design & Manufacturing Kancheepuram',
       degree: 'Bachelor of Technology - BTech',
-      field: 'Computer Science',
+      field: 'Computer Science and Engineering',
       period: '2023 - 2027',
-      grade: '9.02'
-    },
-    {
-      id: 'edu2',
-      institution: 'Indian Institute of Technology, Madras',
-      degree: 'Bachelor of Science - BS',
-      field: 'Data Science',
-      period: '2024 - 2028'
+      grade: '8.87 / 10.0 or 3.55 / 4.0',
     }
   ]
 
@@ -122,44 +115,44 @@ export default function App() {
     {
       id: 'video-question-answering',
       title: 'Video Question Answering',
-      description: 'Video-Question Answering with CLIP + LSTM: combines CLIP for per-frame embeddings with LSTM temporal modeling to answer questions about video content.',
+      description: 'Combines CLIP for per-frame embeddings with LSTM temporal modeling to answer questions about video content.',
       image: '/images/video-question-answering.png',
-      repo: 'https://github.com/LeNotaCoder/Video_Question_Answering'
+      repo: 'https://github.com/yadyneshsonale/Video_Question_Answering'
     },
     {
       id: 'beamer-latex-presentation-customizer',
       title: 'SlideWeaver - Beamer LaTeX Presentation Customizer',
-      description: 'SlideWeaver v4: processes PDF or TEX and generates Beamer presentations automatically using LLM-powered summarization and extraction (Extract → Summarize → 3 Modules → Combine → PPT → LLM Fix).',
+      description: 'Processes PDF or TEX and generates Beamer presentations automatically using LLM-powered summarization and extraction (Extract → Summarize → 3 Modules → Combine → PPT → LLM Fix).',
       image: '/images/beamer-latex-presentation-customizer.png',
-      repo: 'https://github.com/LeNotaCoder/Beamer-LaTeX-Presentation-Customizer'
+      repo: 'https://github.com/yadyneshsonale/Beamer-LaTeX-Presentation-Customizer'
     },
     {
       id: 'brain-computer-interfaces',
       title: 'EEG Motor Imagery Classification',
-      description: 'EEG Motor Imagery Classification using CNN-LSTM Transfer Learning: an implementation and training pipeline based on Khademi et al. (2022), combining CWT, CNN, and LSTM for 4-class motor imagery classification.',
+      description: 'An implementation and training pipeline based on Khademi et al. (2022), combining CWT, CNN, and LSTM for 4-class motor imagery classification.',
       image: '/images/brain-computer-interfaces.png',
-      repo: 'https://github.com/LeNotaCoder/Brain-Computer-Interfaces'
+      repo: 'https://github.com/yadyneshsonale/Brain-Computer-Interfaces'
     },
     {
       id: 'lan-multi-user-communication-system',
       title: 'LAN Multi-User Communication System',
-      description: 'LAN Multi-User Communication System: real-time collaboration on local networks: video conferencing, audio streaming, screen sharing, group chat, file transfer, AI assistant and user/session management.',
+      description: 'Real-time collaboration on local networks: video conferencing, audio streaming, screen sharing, group chat, file transfer, AI assistant and user/session management.',
       image: '/images/lan-multi-user-communication-system.png',
-      repo: 'https://github.com/LeNotaCoder/LAN-Multi-User-Communication-System'
+      repo: 'https://github.com/yadyneshsonale/LAN-Multi-User-Communication-System'
     },
     {
       id: 'enhanced-stock-market-analysis',
       title: 'Enhanced Stock Market Analysis',
-      description: 'Enhanced Stock Market Analysis: comprehensive pipeline including data collection, cleaning, transformation, visualization, technical indicators, and ML models for predictive analytics.',
+      description: 'Comprehensive pipeline including data collection, cleaning, transformation, visualization, technical indicators, and ML models for predictive analytics.',
       image: '/images/enhanced-stock-market-analysis.png',
-      repo: 'https://github.com/LeNotaCoder/Enhanced-Stock-Market-Analysis'
+      repo: 'https://github.com/yadyneshsonale/Enhanced-Stock-Market-Analysis'
     },
     {
       id: 'texas-holdem',
       title: 'Texas Hold\'em Poker',
-      description: 'Texas Hold\'em: C++ implementation supporting 2-10 players, full betting rounds, and hand evaluation.',
+      description: 'C++ implementation supporting 2-10 players, full betting rounds, and hand evaluation.',
       image: '/images/texas-holdem.png',
-      repo: 'https://github.com/LeNotaCoder/Texas-Holdem'
+      repo: 'https://github.com/yadyneshsonale/Texas-Holdem'
     }
   ]
 
@@ -168,32 +161,32 @@ export default function App() {
     {
       id: 'pub-dasnet',
       title: 'DASNet: A Dual Adaptive Subtle-Feature Network for Enhanced Diabetic Retinopathy Detection in Fundus Images',
-      venue: 'ICPRAM 2026',
+      venue: 'ICPRAM',
       year: 2026,
       link: undefined,
       image: '/images/dasnet.png',
       abstract: 'The task of identifying Diabetic Retinopathy (DR) plays a crucial role in medical image processing. Early detection of DR is essential for preventing irreversible vision loss. A significant challenge in this task arises from subtle lesions, such as microaneurysms and hemorrhages, in fundus images, as well as from variability in image quality due to different imaging devices. We propose DASNet (Dual Adaptive Subtle-feature Network), designed to capture complex feature representations in fundus images. The proposed architecture employs a dual-branch convolutional neural network that integrates MaxPooling, Adaptive MaxPooling, and Spatial Pyramid Pooling. DASNet achieves accuracies of 95.34% on BiDR, 95.65% on APTOS, and 97.46% on Eye Disease Image dataset.',
-      repo: 'https://github.com/LeNotaCoder/DASNet'
+      repo: 'https://github.com/yadyneshsonale/DASNet'
     },
     {
       id: 'pub-breast-therm',
       title: 'Deep learning-based classification of breast abnormalities using thermal imaging and ResNet-50',
-      venue: 'ASME IMECE 2025',
+      venue: 'ASME IMECE',
       year: 2025,
       link: 'https://asme.pinetec.com/imece-india2025/data/pdfs/trk-9/IMECE-INDIA2025-161705.pdf',
       image: '/images/pub-breast-therm.png',
       abstract: 'This paper discusses the application of thermal imaging and deep learning in identifying and classifying mammary abnormalities. The research offers a non-invasive and radiation-free alternative using thermal imaging, which senses temperature variations on the skin surface that may represent underlying abnormalities. The ResNet-50 deep learning model was employed for classifying images into three classes: Possibly Benign (PB), Possibly Malignant (PM), and Normal (N). The overall accuracy achieved was 96.364%, with PM class achieving perfect recall at 1.00000 and highest F1-score of 0.98990.',
-      repo: 'https://github.com/LeNotaCoder/thermal-breast-classification'
+      repo: 'https://github.com/yadyneshsonale/thermal-breast-classification'
     },
     {
       id: 'pub-compare-therm',
       title: 'A comparative study of pre-trained deep learning models with and without pre-processing for multi-class classification of thermal breast images',
-      venue: 'ASME IMECE 2025',
+      venue: 'ASME IMECE',
       year: 2025,
       link: 'https://asme.pinetec.com/imece-india2025/data/pdfs/trk-6/IMECE-INDIA2025-161724.pdf',
       image: '/images/pub-compare-therm.png',
       abstract: 'This study considered the pre-processing methods and the pre-trained deep learning models suitable for the classification of thermal breast images into three categories: Possibly Benign (PB), Possibly Malignant (PM), and Normal (N). The evaluation was conducted on a dataset from 119 patients following AAT protocol. When breast tissue was manually divided into left and right regions, classification improved significantly. The pre-trained ResNet-50 model achieved 0.96364 accuracy, InceptionV3 reached 0.93636, and VGG16 attained 0.900. These results demonstrate the importance of pre-processing in achieving high accuracy.',
-      repo: 'https://github.com/LeNotaCoder/thermal-breast-comparison'
+      repo: 'https://github.com/yadyneshsonale/thermal-breast-comparison'
     }
   ]
 
@@ -218,17 +211,9 @@ export default function App() {
         {/* About Section */}
         <section id="about" className="about-section">
           <div className="about-container">
-            <div className="about-photo">
-              <div className="photo-frame">
-                <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80&auto=format&fit=crop" 
-                  alt={name}
-                />
-              </div>
-            </div>
             <div className="about-content">
               <h1 className="about-name">{name}</h1>
-              <p className="about-title">Researcher · ML Engineer · Deep Learning & Computer Vision</p>
+              <p className="about-title">Research · NLP · Deep Learning · Computer Vision</p>
               <p className="about-bio">{bio}</p>
               <div className="about-actions">
                 <a className="btn-primary" href={`http://localhost:4000/resume/full_resume.pdf`} target="_blank" rel="noreferrer">
@@ -314,7 +299,7 @@ export default function App() {
         <section id="publications" className="section-container">
           <div className="section-header">
             <h2 className="section-title"><ScrollFloat animationDuration={1} ease="back.inOut(2)" scrollStart="center bottom+=50%" scrollEnd="bottom bottom-=40%" stagger={0.03}>Publications</ScrollFloat></h2>
-            <p className="section-subtitle">Research contributions in machine learning and medical imaging</p>
+            <p className="section-subtitle">Research contributions in Deep learning and Computer Vision</p>
           </div>
           <div className="publications-grid">
             {publications.map((p) => (

@@ -4,7 +4,7 @@ export default function Home() {
   // static profile info pulled from the LaTeX template
   const name = 'Yadynesh D Sonale'
   const email = 'yadyneshsonale@gmail.com'
-  const github = 'https://github.com/LeNotaCoder'
+  const github = 'https://github.com/yadyneshsonale'
   const linkedin = 'https://www.linkedin.com/in/yadynesh'
 
   return (
