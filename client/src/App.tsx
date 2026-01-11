@@ -211,6 +211,14 @@ export default function App() {
         {/* About Section */}
         <section id="about" className="about-section">
           <div className="about-container">
+            <div className="about-photo">
+              <div className="photo-frame">
+                <img 
+                  src="/images/profile_photo.jpeg"
+                  alt={name}
+                />
+              </div>
+            </div>
             <div className="about-content">
               <h1 className="about-name">{name}</h1>
               <p className="about-title">Research · NLP · Deep Learning · Computer Vision</p>
@@ -365,7 +373,6 @@ export default function App() {
         </section>
       </main>
       <footer className="footer">
-        <p>© 2026 {name}. Built with React & TypeScript.</p>
       </footer>
     </div>
     </>
