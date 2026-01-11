@@ -16,7 +16,7 @@ export default function Home() {
           <a className="cta" href="/contact">Contact me</a>
           <a className="cta secondary" href={github} target="_blank" rel="noreferrer">GitHub</a>
           <a className="cta secondary" href={linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
-          <a className="cta secondary" href={`http://localhost:4000/resume/full_resume.pdf`} target="_blank" rel="noreferrer">Preview résumé (PDF)</a>
+          <a className="cta secondary" href={`/full_resume.pdf`} target="_blank" rel="noreferrer">Preview résumé (PDF)</a>
         </div>
       </div>
       <div className="home-note">
