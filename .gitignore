@@ -8,6 +8,8 @@ client/node_modules/
 /coverage
 
 # Production
+client/dist/
+build/
 
 # Misc
 .DS_Store
