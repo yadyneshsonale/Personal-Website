@@ -163,7 +163,7 @@ export default function App() {
       title: 'DASNet: A Dual Adaptive Subtle-Feature Network for Enhanced Diabetic Retinopathy Detection in Fundus Images',
       venue: 'ICPRAM',
       year: 2026,
-      link: undefined,
+      link: 'https://drive.google.com/file/d/152nHZKvIbKj0Zb1870MmqH8_DTe0mg8T/view?usp=drive_link',
       image: '/images/dasnet.png',
       abstract: 'The task of identifying Diabetic Retinopathy (DR) plays a crucial role in medical image processing. Early detection of DR is essential for preventing irreversible vision loss. A significant challenge in this task arises from subtle lesions, such as microaneurysms and hemorrhages, in fundus images, as well as from variability in image quality due to different imaging devices. We propose DASNet (Dual Adaptive Subtle-feature Network), designed to capture complex feature representations in fundus images. The proposed architecture employs a dual-branch convolutional neural network that integrates MaxPooling, Adaptive MaxPooling, and Spatial Pyramid Pooling. DASNet achieves accuracies of 95.34% on BiDR, 95.65% on APTOS, and 97.46% on Eye Disease Image dataset.',
       repo: 'https://github.com/yadyneshsonale/DASNet'
