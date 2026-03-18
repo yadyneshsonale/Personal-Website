@@ -122,7 +122,8 @@ export default function App() {
     {
       id: 'paper-to-ppt',
       title: 'PaperToPPT – AI Research Paper to Presentation Converter',
-      description: 'Full-stack AI app that converts research paper PDFs into structured presentations with automated extraction, summarization, and editable slide workflows.'
+      description: 'Full-stack AI app that converts research paper PDFs into structured presentations with automated extraction, summarization, and editable slide workflows.',
+      repo: 'https://github.com/yadyneshsonale/pdf-to-ppt-using-ai'
     },
     {
       id: 'cuda-protein-folding',
