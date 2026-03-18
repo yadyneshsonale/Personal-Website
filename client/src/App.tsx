@@ -199,7 +199,7 @@ export default function App() {
       link: 'https://asme.pinetec.com/imece-india2025/data/pdfs/trk-9/IMECE-INDIA2025-161705.pdf',
       image: '/images/pub-breast-therm.png',
       abstract: 'This paper discusses the application of thermal imaging and deep learning in identifying and classifying mammary abnormalities. The research offers a non-invasive and radiation-free alternative using thermal imaging, which senses temperature variations on the skin surface that may represent underlying abnormalities. The ResNet-50 deep learning model was employed for classifying images into three classes: Possibly Benign (PB), Possibly Malignant (PM), and Normal (N). The overall accuracy achieved was 96.364%, with PM class achieving perfect recall at 1.00000 and highest F1-score of 0.98990.',
-      repo: 'https://github.com/yadyneshsonale/thermal-breast-classification'
+      repo: 'https://github.com/yadyneshsonale/Breast-Cancer-Dataset'
     },
     {
       id: 'pub-compare-therm',
@@ -209,7 +209,7 @@ export default function App() {
       link: 'https://asme.pinetec.com/imece-india2025/data/pdfs/trk-6/IMECE-INDIA2025-161724.pdf',
       image: '/images/pub-compare-therm.png',
       abstract: 'This study considered the pre-processing methods and the pre-trained deep learning models suitable for the classification of thermal breast images into three categories: Possibly Benign (PB), Possibly Malignant (PM), and Normal (N). The evaluation was conducted on a dataset from 119 patients following AAT protocol. When breast tissue was manually divided into left and right regions, classification improved significantly. The pre-trained ResNet-50 model achieved 0.96364 accuracy, InceptionV3 reached 0.93636, and VGG16 attained 0.900. These results demonstrate the importance of pre-processing in achieving high accuracy.',
-      repo: 'https://github.com/yadyneshsonale/thermal-breast-comparison'
+      repo: 'https://github.com/yadyneshsonale/Breast-Cancer-Dataset'
     }
   ]
 
