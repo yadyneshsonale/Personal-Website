@@ -120,11 +120,21 @@ export default function App() {
       repo: 'https://github.com/yadyneshsonale/Video_Question_Answering'
     },
     {
-      id: 'beamer-latex-presentation-customizer',
-      title: 'SlideWeaver - Beamer LaTeX Presentation Customizer',
-      description: 'Processes PDF or TEX and generates Beamer presentations automatically using LLM-powered summarization and extraction (Extract → Summarize → 3 Modules → Combine → PPT → LLM Fix).',
-      image: '/images/beamer-latex-presentation-customizer.png',
-      repo: 'https://github.com/yadyneshsonale/Beamer-LaTeX-Presentation-Customizer'
+      id: 'paper-to-ppt',
+      title: 'PaperToPPT – AI Research Paper to Presentation Converter',
+      description: 'Full-stack AI app that converts research paper PDFs into structured presentations with automated extraction, summarization, and editable slide workflows.'
+    },
+    {
+      id: 'cuda-protein-folding',
+      title: 'CUDA Parallel Sampling for Protein Folding',
+      description: 'CUDA-based parallel Monte Carlo simulation with replica-level GPU parallelism and memory optimizations, reducing energy computation from O(N²) to O(N) with 22× speedup.',
+      repo: 'https://github.com/yadyneshsonale/ProteinFolding'
+    },
+    {
+      id: 'gpu-assisted-optimization',
+      title: 'GPU-Assisted Optimization with Surrogate Models',
+      description: 'Particle Swarm Optimization for 100D nonlinear benchmarks with 400K+ generated samples to train neural surrogates that accelerate expensive fitness evaluations.',
+      repo: 'https://github.com/yadyneshsonale/ParticleSwarmOptimization'
     },
     {
       id: 'brain-computer-interfaces',
@@ -146,6 +156,18 @@ export default function App() {
       description: 'Comprehensive pipeline including data collection, cleaning, transformation, visualization, technical indicators, and ML models for predictive analytics.',
       image: '/images/enhanced-stock-market-analysis.png',
       repo: 'https://github.com/yadyneshsonale/Enhanced-Stock-Market-Analysis'
+    },
+    {
+      id: 'real-time-speech-translation',
+      title: 'Real-Time Speech-to-Speech Translation System',
+      description: 'Low-latency multilingual speech pipeline combining streaming ASR, neural translation, and neural TTS with WebSocket-based audio streaming and asynchronous inference.',
+      repo: 'https://github.com/yadyneshsonale/SmartGlasses'
+    },
+    {
+      id: 'semantic-file-search-engine',
+      title: 'AI-Powered Local Semantic File Search Engine',
+      description: 'Real-time semantic search engine for local images, PDFs, and text using multimodal embeddings, vector retrieval, reranking, and interactive previews.',
+      repo: 'https://github.com/yadyneshsonale/semantic-file-search'
     },
     {
       id: 'texas-holdem',
