@@ -113,11 +113,16 @@ export default function App() {
   // Hardcoded projects data
   const hardcodedProjects: Project[] = [
     {
-      id: 'video-question-answering',
-      title: 'Video Question Answering',
-      description: 'Combines CLIP for per-frame embeddings with LSTM temporal modeling to answer questions about video content.',
-      image: '/images/video-question-answering.png',
-      repo: 'https://github.com/yadyneshsonale/Video_Question_Answering'
+      id: 'real-time-speech-translation',
+      title: 'Real-Time Speech-to-Speech Translation System',
+      description: 'Low-latency multilingual speech pipeline combining streaming ASR, neural translation, and neural TTS with WebSocket-based audio streaming and asynchronous inference.',
+      repo: 'https://github.com/yadyneshsonale/SmartGlasses'
+    },
+    {
+      id: 'semantic-file-search-engine',
+      title: 'AI-Powered Local Semantic File Search Engine',
+      description: 'Real-time semantic search engine for local images, PDFs, and text using multimodal embeddings, vector retrieval, reranking, and interactive previews.',
+      repo: 'https://github.com/yadyneshsonale/semantic-file-search'
     },
     {
       id: 'paper-to-ppt',
@@ -159,17 +164,13 @@ export default function App() {
       repo: 'https://github.com/yadyneshsonale/Enhanced-Stock-Market-Analysis'
     },
     {
-      id: 'real-time-speech-translation',
-      title: 'Real-Time Speech-to-Speech Translation System',
-      description: 'Low-latency multilingual speech pipeline combining streaming ASR, neural translation, and neural TTS with WebSocket-based audio streaming and asynchronous inference.',
-      repo: 'https://github.com/yadyneshsonale/SmartGlasses'
+      id: 'video-question-answering',
+      title: 'Video Question Answering',
+      description: 'Combines CLIP for per-frame embeddings with LSTM temporal modeling to answer questions about video content.',
+      image: '/images/video-question-answering.png',
+      repo: 'https://github.com/yadyneshsonale/Video_Question_Answering'
     },
-    {
-      id: 'semantic-file-search-engine',
-      title: 'AI-Powered Local Semantic File Search Engine',
-      description: 'Real-time semantic search engine for local images, PDFs, and text using multimodal embeddings, vector retrieval, reranking, and interactive previews.',
-      repo: 'https://github.com/yadyneshsonale/semantic-file-search'
-    },
+
     {
       id: 'texas-holdem',
       title: 'Texas Hold\'em Poker',
